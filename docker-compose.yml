@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ubuntu-tools:
+      image: wsoc/ubuntu_tools:0.1
+      hostname: ubuntu-tools
+      volumes:
+        - /etc:/opt/etc
